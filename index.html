@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Nicole's Flower Designs</title>
 
   <style>
@@ -25,11 +26,38 @@
       box-sizing: border-box;
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       font-family: 'Montserrat', sans-serif;
       color: var(--text);
       background: var(--cream);
       line-height: 1.7;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 250, 246, 0.94);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(200, 169, 106, 0.25);
+      padding: 16px;
+      text-align: center;
+    }
+
+    nav a {
+      color: var(--text);
+      text-decoration: none;
+      margin: 0 14px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--rose);
     }
 
     header {
@@ -46,7 +74,7 @@
 
     .hero {
       max-width: 850px;
-      background: rgba(255, 255, 255, 0.72);
+      background: rgba(255, 255, 255, 0.76);
       padding: 55px 35px;
       border-radius: 28px;
       border: 1px solid rgba(200, 169, 106, 0.4);
@@ -54,11 +82,18 @@
       backdrop-filter: blur(8px);
     }
 
+    .butterfly {
+      font-size: 1.6rem;
+      color: var(--pink);
+      margin-bottom: 12px;
+    }
+
     .brand {
       font-family: 'Great Vibes', cursive;
       font-size: 5rem;
       color: var(--rose);
       margin-bottom: 10px;
+      font-weight: 400;
     }
 
     .hero h2 {
@@ -72,12 +107,6 @@
       color: var(--muted);
       max-width: 680px;
       margin: 0 auto 28px;
-    }
-
-    .butterfly {
-      font-size: 1.6rem;
-      color: var(--pink);
-      margin-bottom: 12px;
     }
 
     .btn-group {
@@ -118,36 +147,22 @@
       transform: translateY(-3px);
     }
 
-    nav {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: rgba(255, 250, 246, 0.92);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid rgba(200, 169, 106, 0.25);
-      padding: 16px;
-      text-align: center;
-    }
-
-    nav a {
-      color: var(--text);
-      text-decoration: none;
-      margin: 0 14px;
-      font-weight: 500;
-      transition: 0.3s;
-    }
-
-    nav a:hover {
-      color: var(--rose);
-    }
-
     section {
-      padding: 80px 8%;
+      padding: 50px 8%;
+    }
+
+    #about {
+      padding-top: 55px;
+      padding-bottom: 25px;
+    }
+
+    #services {
+      padding-top: 25px;
     }
 
     .section-title {
       text-align: center;
-      margin-bottom: 45px;
+      margin-bottom: 36px;
     }
 
     .section-title span {
@@ -265,7 +280,9 @@
       gap: 18px;
     }
 
-    input, select, textarea {
+    input,
+    select,
+    textarea {
       width: 100%;
       padding: 14px;
       border: 1px solid #ead8df;
@@ -281,10 +298,17 @@
       resize: vertical;
     }
 
-    input:focus, select:focus, textarea:focus {
+    input:focus,
+    select:focus,
+    textarea:focus {
       outline: none;
       border-color: var(--pink);
       box-shadow: 0 0 0 3px rgba(217, 108, 159, 0.15);
+    }
+
+    button {
+      border: none;
+      cursor: pointer;
     }
 
     footer {
@@ -298,9 +322,23 @@
       font-family: 'Great Vibes', cursive;
       font-size: 2.4rem;
       color: #ffd7e8;
+      font-weight: 400;
     }
 
     @media (max-width: 700px) {
+      nav a {
+        display: inline-block;
+        margin: 6px;
+      }
+
+      header {
+        min-height: 90vh;
+      }
+
+      .hero {
+        padding: 40px 24px;
+      }
+
       .brand {
         font-size: 3.4rem;
       }
@@ -309,13 +347,28 @@
         font-size: 1.5rem;
       }
 
-      nav a {
-        display: inline-block;
-        margin: 6px;
+      section {
+        padding: 45px 6%;
       }
 
-      section {
-        padding: 60px 6%;
+      #about {
+        padding-bottom: 18px;
+      }
+
+      #services {
+        padding-top: 18px;
+      }
+
+      .section-title {
+        margin-bottom: 28px;
+      }
+
+      .section-title h2 {
+        font-size: 2rem;
+      }
+
+      .gallery img {
+        height: 240px;
       }
     }
   </style>
@@ -334,8 +387,11 @@
   <header>
     <div class="hero">
       <div class="butterfly">🦋 ✦ 🦋</div>
+
       <h1 class="brand">Nicole's Flower Designs</h1>
+
       <h2>Luxury Floral Arrangements for Every Occasion</h2>
+
       <p>
         Elegant floral designs for weddings, quinceañeras, birthdays, anniversaries,
         graduations, memorial tributes, seasonal décor, and custom celebrations.
@@ -417,17 +473,18 @@
     </div>
 
     <div class="gallery">
-      <img src="photo1.jpg" alt="Floral arrangement">
-      <img src="photo2.jpg" alt="Floral arrangement">
-      <img src="photo3.jpg" alt="Floral arrangement">
-      <img src="photo4.jpg" alt="Floral arrangement">
-      <img src="photo5.jpg" alt="Floral arrangement">
+      <img src="photo1.jpg" alt="Luxury floral arrangement">
+      <img src="photo2.jpg" alt="Pink floral arrangement">
+      <img src="photo3.jpg" alt="Custom flower design">
+      <img src="photo4.jpg" alt="Elegant flower arrangement">
+      <img src="photo5.jpg" alt="Seasonal floral design">
     </div>
   </section>
 
   <section id="payment" class="payment">
     <div class="payment-box">
       <h2>Secure Payments & Deposits</h2>
+
       <p>
         Clients may submit deposits or payments after confirming availability,
         floral details, and final pricing.
@@ -476,7 +533,7 @@
 
       <textarea name="message" placeholder="Tell us about your floral vision, colors, budget, quantity, delivery needs, or inspiration ideas." required></textarea>
 
-      <button type="submit">Send Request</button>
+      <button type="submit" class="btn btn-primary">Send Request</button>
     </form>
   </section>
 
