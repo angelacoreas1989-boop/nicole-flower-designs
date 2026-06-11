@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Nicole's Flower Designs</title>
+
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -11,7 +13,8 @@
 
 <header class="navbar">
   <div class="logo">
-    Nicole's <span>Flower Designs</span>
+    Nicole's
+    <span>Flower Designs</span>
   </div>
 
   <nav id="navLinks">
@@ -26,37 +29,27 @@
   <button class="menu-btn" onclick="toggleMenu()">☰</button>
 </header>
 
-<section id="home" class="hero">
-  <div class="hero-content">
-    <a href="#contact" class="btn">Request a Quote</a>
-
-    <div class="hero-tags">
-      <span>Weddings</span>
-      <span>Custom Arrangements</span>
-      <span>Sympathy Designs</span>
-      <span>Wreaths</span>
-      <span>Special Events</span>
-    </div>
-  </div>
-</section>
+<section id="home" class="hero"></section>
 
 <section id="about" class="about">
   <div class="about-card">
-    <div>
+    <div class="about-text">
       <p class="section-label">Meet Norma</p>
       <h2>The Heart Behind the Designs</h2>
+
       <p>
         Norma is the floral designer behind Nicole's Flower Designs. With a love
         for flowers, creativity, and meaningful details, she handcrafts each
         arrangement with care, beauty, and attention to every special moment.
       </p>
+
       <p>
         From fresh blooms to silk designs and custom wreaths, Norma creates
         floral pieces made to bring comfort, joy, and beauty to every home.
       </p>
     </div>
 
-    <img src="assets/norma.jpg" alt="Norma, owner of Nicole's Flower Designs">
+    <img src="assets/norma.jpg" alt="Norma, owner and floral designer">
   </div>
 </section>
 
@@ -64,22 +57,26 @@
   <div class="story-card">
     <img src="assets/tko.jpg" alt="Tko">
 
-    <div>
+    <div class="story-text">
       <p class="section-label">Our Story</p>
       <h2>A Family Legacy of Love</h2>
+
       <p>
         Nicole's Flower Designs began with family, remembrance, and a passion
         for creating beauty.
       </p>
+
       <p>
         After the passing of her son, Tko, in 2008, Norma began creating floral
         arrangements as a way to honor his memory and express the love that
         remains.
       </p>
+
       <p>
         Years later, her granddaughter Nicole encouraged her to share that gift
         with others and turn her creativity into a business.
       </p>
+
       <p class="quote">
         Created in memory, crafted with love, and shared with others.
       </p>
@@ -139,7 +136,7 @@
   <h2 class="gallery-subtitle">Custom Wreaths</h2>
 
   <div class="gallery-grid wreath-grid">
-    <img src="assets/wreath-1.png" alt="Custom butterfly wreath">
+    <img src="assets/wreath-1.png" alt="Custom floral wreath">
     <img src="assets/wreath-2.png" alt="Custom home wreath">
     <img src="assets/wreath-3.png" alt="Custom welcome wreath">
   </div>
@@ -164,6 +161,7 @@
 <section class="delivery">
   <div>
     <h2>Local Delivery & Nationwide Shipping</h2>
+
     <p>
       Nicole's Flower Designs proudly offers local delivery and shipping
       anywhere in the United States. Shipping costs are calculated separately
@@ -178,31 +176,79 @@
     <h2>Request a Custom Design</h2>
 
     <p>
-      Whether you're celebrating a special occasion, honoring a loved one, or
-      looking for the perfect gift, we would love to help bring your vision to life.
+      Tell us what you're looking for, your occasion, preferred colors, flowers,
+      budget, and any inspiration photo you may have.
     </p>
 
-    <p><strong>Email:</strong> Contact us through the quote form below.</p>
     <p><strong>Location:</strong> Georgia, USA</p>
     <p><strong>Delivery:</strong> Local delivery available</p>
     <p><strong>Shipping:</strong> Available anywhere in the U.S.</p>
 
-    <a href="https://www.instagram.com/nicolesflowerdesigns_/" target="_blank" class="instagram-link">
-      📷 Follow Nicole's Flower Designs on Instagram
+    <a
+      href="https://www.instagram.com/nicolesflowerdesigns_/"
+      target="_blank"
+      class="instagram-link"
+    >
+      Follow Nicole's Flower Designs on Instagram
     </a>
   </div>
 
-  <form action="https://formspree.io/f/xlgkrnjo" method="POST">
+  <form action="https://formspree.io/f/xlgkrnjo" method="POST" enctype="multipart/form-data">
     <input type="text" name="name" placeholder="Your Name" required>
+
     <input type="email" name="email" placeholder="Email Address" required>
-    <input type="text" name="occasion" placeholder="What occasion is this for?">
-    <textarea name="message" placeholder="Tell us what you are looking for..." required></textarea>
+
+    <select name="occasion" required>
+      <option value="">Select Occasion</option>
+      <option value="Birthday">Birthday</option>
+      <option value="Anniversary">Anniversary</option>
+      <option value="Graduation">Graduation</option>
+      <option value="Wedding">Wedding</option>
+      <option value="Baby Shower">Baby Shower</option>
+      <option value="Sympathy / Memorial">Sympathy / Memorial</option>
+      <option value="Housewarming">Housewarming</option>
+      <option value="Custom Wreath">Custom Wreath</option>
+      <option value="Just Because">Just Because</option>
+      <option value="Other">Other</option>
+    </select>
+
+    <select name="flower_type" required>
+      <option value="">Fresh or Silk Flowers?</option>
+      <option value="Fresh Flowers">Fresh Flowers</option>
+      <option value="Silk Flowers">Silk Flowers</option>
+      <option value="Either / Not Sure">Either / Not Sure</option>
+    </select>
+
+    <input type="text" name="colors" placeholder="Preferred Colors">
+
+    <input type="text" name="flowers" placeholder="Preferred Flowers">
+
+    <select name="budget" required>
+      <option value="">Select Budget</option>
+      <option value="$25 - $50">$25 - $50</option>
+      <option value="$50 - $100">$50 - $100</option>
+      <option value="$100 - $150">$100 - $150</option>
+      <option value="$150+">$150+</option>
+      <option value="Not Sure">Not Sure</option>
+    </select>
+
+    <label class="file-label">
+      Upload Inspiration Photo
+      <input type="file" name="inspiration_photo" accept="image/*">
+    </label>
+
+    <textarea name="message" placeholder="Tell us more about what you are looking for..." required></textarea>
+
     <button type="submit" class="btn">Request a Quote</button>
   </form>
 </section>
 
 <footer>
-  <div class="footer-logo">Nicole's <span>Flower Designs</span></div>
+  <div class="footer-logo">
+    Nicole's
+    <span>Flower Designs</span>
+  </div>
+
   <p>Handcrafted Floral Arrangements & Custom Wreaths</p>
   <p>Local Delivery • Shipping Anywhere in the U.S.</p>
   <p>© 2026 Nicole's Flower Designs. All Rights Reserved.</p>
