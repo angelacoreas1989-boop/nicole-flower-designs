@@ -479,3 +479,90 @@ footer p {
     bottom: 16px;
   }
 }
+
+.order-form-page {
+  background: #fff7f5;
+  padding: 40px 8%;
+}
+
+.order-banner {
+  width: 100%;
+  max-width: 1100px;
+  display: block;
+  margin: 0 auto 35px;
+  border-radius: 12px;
+}
+
+.order-form {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 45px;
+  border: 1px solid rgba(200, 155, 60, 0.35);
+  box-shadow: 0 14px 35px rgba(0,0,0,0.08);
+}
+
+.order-form h1,
+.order-form h2 {
+  color: var(--dark);
+}
+
+.order-form h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-note,
+.small-note {
+  text-align: center;
+  color: var(--pink);
+  font-style: italic;
+}
+
+.order-form label {
+  display: block;
+  margin-top: 18px;
+  font-weight: bold;
+  color: var(--dark);
+}
+
+.order-form input,
+.order-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(200, 155, 60, 0.45);
+  margin-top: 6px;
+}
+
+.order-form textarea {
+  min-height: 90px;
+}
+
+.signature-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 28px;
+}
+
+.signature-line {
+  border-bottom: 1px solid var(--dark);
+  height: 40px;
+}
+
+@media print {
+  .navbar,
+  .back-to-top {
+    display: none;
+  }
+
+  .order-form-page {
+    padding: 0;
+    background: white;
+  }
+
+  .order-form {
+    box-shadow: none;
+    border: none;
+  }
+}
