@@ -25,8 +25,6 @@ body {
   line-height: 1.7;
 }
 
-/* NAVBAR */
-
 .navbar {
   position: sticky;
   top: 0;
@@ -84,8 +82,6 @@ nav a:hover {
   cursor: pointer;
 }
 
-/* HERO */
-
 .hero {
   min-height: 88vh;
   background-image: url("assets/flower-designs-banner.png");
@@ -95,17 +91,12 @@ nav a:hover {
   position: relative;
 }
 
-.hero-click-btn {
+.hero-link {
   position: absolute;
-  left: 25%;
-  top: 67%;
-  width: 270px;
-  height: 70px;
-  transform: translateX(-50%);
+  inset: 0;
   display: block;
+  cursor: pointer;
 }
-
-/* GENERAL */
 
 section {
   padding: 85px 8%;
@@ -130,8 +121,6 @@ h2 {
 p {
   margin-bottom: 14px;
 }
-
-/* ABOUT + STORY */
 
 .about-card,
 .story-card,
@@ -164,8 +153,6 @@ p {
   font-style: italic;
   font-size: 1.1rem;
 }
-
-/* SERVICES */
 
 .services {
   text-align: center;
@@ -201,8 +188,6 @@ p {
 .service-card p {
   font-size: 0.95rem;
 }
-
-/* GALLERY */
 
 .gallery {
   background: #fffdfc;
@@ -242,8 +227,6 @@ p {
   height: 330px;
 }
 
-/* OCCASIONS */
-
 .occasions {
   text-align: center;
   background: var(--soft-pink);
@@ -266,8 +249,6 @@ p {
   border: 1px solid rgba(200, 155, 60, 0.35);
 }
 
-/* DELIVERY */
-
 .delivery {
   background: linear-gradient(90deg, #fff7f5, #fde6ea);
   text-align: center;
@@ -278,7 +259,25 @@ p {
   margin: auto;
 }
 
-/* CONTACT */
+.policy {
+  background: #fffdfc;
+  text-align: center;
+}
+
+.policy-box {
+  max-width: 760px;
+  margin: auto;
+  background: white;
+  border: 1px solid rgba(200, 155, 60, 0.35);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.08);
+  padding: 42px 34px;
+  border-radius: 14px;
+}
+
+.policy-icon {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
 
 .contact {
   background: white;
@@ -289,7 +288,9 @@ p {
 }
 
 .instagram-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   margin-top: 18px;
   color: var(--pink);
   text-decoration: none;
@@ -298,6 +299,12 @@ p {
 
 .instagram-link:hover {
   color: var(--gold);
+}
+
+.instagram-link img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
 }
 
 form {
@@ -359,18 +366,6 @@ textarea {
   transform: translateY(-3px);
 }
 
-.policy {
-  background: var(--soft-pink);
-  text-align: center;
-}
-
-.policy div {
-  max-width: 800px;
-  margin: auto;
-}
-
-/* FOOTER */
-
 footer {
   background: var(--blush);
   text-align: center;
@@ -382,7 +377,29 @@ footer p {
   margin-top: 8px;
 }
 
-/* MOBILE */
+.back-to-top {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--pink);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1.4rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+  z-index: 1001;
+  transition: 0.3s ease;
+}
+
+.back-to-top:hover {
+  background: var(--gold);
+  transform: translateY(-3px);
+}
 
 @media(max-width: 950px) {
   .navbar {
@@ -454,5 +471,12 @@ footer p {
 
   h2 {
     font-size: 2rem;
+  }
+
+  .back-to-top {
+    width: 42px;
+    height: 42px;
+    right: 16px;
+    bottom: 16px;
   }
 }
