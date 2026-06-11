@@ -142,7 +142,7 @@ Customers can explore floral arrangements, wedding florals, quinceañera designs
 
 ### Custom Quote Request Form
 
-![Quote Request Form](./assets/contact-form.png)
+![Quote Request Form](Quote-Request-Form.png)
 
 The quote request form allows customers to:
 
@@ -260,7 +260,7 @@ nicole-flower-designs/
 │   ├── flower-designs-banner.png
 │   ├── Homepage.png
 │   ├── services-gallery.png
-│   ├── contact-form.png
+│   ├── Quote-Request-Form.png
 │   ├── norma.jpg
 │   ├── tko.jpg
 │   ├── insta.png
