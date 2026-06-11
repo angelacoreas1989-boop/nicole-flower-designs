@@ -277,6 +277,29 @@ nicole-flower-designs/
 ```
 
 ---
+## ✦ CONNECT WITH ME ✦
+
+<p align="center">
+
+<a href="mailto:angelacoreas1989@gmail.com">
+<img src="https://img.shields.io/badge/EMAIL-444444?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<a href="https://angelacoreas1989-boop.github.io/tech-portfolio/">
+<img src="https://img.shields.io/badge/PORTFOLIO-ff69b4?style=for-the-badge&logo=googlechrome&logoColor=white" />
+</a>
+
+<a href="https://www.linkedin.com/in/angela-coreas">
+<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="https://github.com/angelacoreas1989-boop">
+<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</p>
+
+---
 
 ## ✦ AUTHOR ✦
 
@@ -287,26 +310,11 @@ Transitioning into Tech Through Real-World Projects
 </p>
 
 <p align="center">
-<a href="https://github.com/angelacoreas1989-boop">GitHub</a> •
-<a href="https://angelacoreas1989-boop.github.io/tech-portfolio/">Portfolio</a>
-</p>
-
----
-
-## ✦ Connect With Me ✦
-
-<p align="center">
 Building real-world projects while developing skills in software engineering, web development, and modern technology.
 </p>
 
-<p align="center">
-💻 Software Engineering Student<br>
-🌸 Business Website Developer<br>
-🚀 Aspiring Software Engineer
-</p>
-
 ---
 
 <p align="center">
-Created with care for Nicole's Flower Designs 🌸
+Created for a small business client 🌸
 </p>
