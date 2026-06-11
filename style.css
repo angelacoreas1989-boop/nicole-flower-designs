@@ -561,6 +561,14 @@ footer p {
     background: white;
   }
 
+  .hero {
+  padding: 0;
+}
+
+.hero-banner {
+  width: 100%;
+  display: block;
+}
   .order-form {
     box-shadow: none;
     border: none;
