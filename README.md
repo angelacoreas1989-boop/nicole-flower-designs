@@ -181,3 +181,7 @@ nicole-flower-designs/
 │   └── wreath-3.png
 │
 └── README.md
+
+✦ Author
+<p align="center"> <b>Angela Coreas</b><br> Software Engineering Student<br> Building real-world projects while transitioning into tech. </p> <p align="center"> <a href="https://github.com/angelacoreas1989-boop">GitHub</a> • <a href="https://angelacoreas1989-boop.github.io/tech-portfolio/">Portfolio</a> </p>
+<p align="center"> Created with care for Nicole's Flower Designs 🌸 </p> ```
