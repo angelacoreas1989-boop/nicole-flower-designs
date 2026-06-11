@@ -469,3 +469,23 @@ footer p {
     bottom: 16px;
   }
 }
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.hero-banner-wrapper {
+  width: 100vw;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  background: var(--blush);
+}
+
+.hero-banner-wrapper img {
+  width: 100vw;
+  max-width: none;
+  height: auto;
+  display: block;
+}
