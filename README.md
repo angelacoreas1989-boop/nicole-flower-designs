@@ -142,7 +142,7 @@ Customers can explore floral arrangements, wedding florals, quinceañera designs
 
 ### Custom Quote Request Form
 
-![Quote Request Form](Quote-Request-Form.png)
+![Quote Request Form](./assets/Quote-Request-Form.png)
 
 The quote request form allows customers to:
 
