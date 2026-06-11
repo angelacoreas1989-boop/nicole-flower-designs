@@ -92,6 +92,17 @@ nav a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero-click-btn {
+  position: absolute;
+  left: 25%;
+  top: 67%;
+  width: 270px;
+  height: 70px;
+  transform: translateX(-50%);
+  display: block;
 }
 
 /* GENERAL */
@@ -346,6 +357,16 @@ textarea {
 .btn:hover {
   background: var(--gold);
   transform: translateY(-3px);
+}
+
+.policy {
+  background: var(--soft-pink);
+  text-align: center;
+}
+
+.policy div {
+  max-width: 800px;
+  margin: auto;
 }
 
 /* FOOTER */
