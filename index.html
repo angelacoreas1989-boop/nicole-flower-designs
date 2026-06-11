@@ -3,13 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <title>Nicole's Flower Designs</title>
-
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
+<body id="top">
 
 <header class="navbar">
   <div class="logo">
@@ -30,10 +28,8 @@
 </header>
 
 <section id="home" class="hero">
-  <a href="#contact" class="hero-click-btn" aria-label="Request a Quote"></a>
+  <a href="#contact" class="hero-link" aria-label="Request a Quote"></a>
 </section>
-
-<section id="about" class="about">
 
 <section id="about" class="about">
   <div class="about-card">
@@ -95,32 +91,32 @@
   <div class="service-grid">
     <div class="service-card">
       <h3>Floral Arrangements</h3>
-      <p>Fresh and silk flower arrangements designed for every occasion.</p>
+      <p>Fresh and silk flower arrangements designed for birthdays, anniversaries, celebrations, and everyday occasions.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Wedding Flowers & Centerpieces</h3>
+      <p>Bridal bouquets, ceremony florals, reception centerpieces, sweetheart tables, and custom wedding designs.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Quinceañeras & Sweet 16s</h3>
+      <p>Custom floral arrangements, bouquets, centerpieces, and event décor designed to match your theme and colors.</p>
     </div>
 
     <div class="service-card">
       <h3>Custom Wreaths</h3>
-      <p>Seasonal and everyday wreaths handcrafted for your home.</p>
+      <p>Seasonal, memorial, holiday, and everyday wreaths handcrafted for homes and businesses.</p>
     </div>
 
     <div class="service-card">
       <h3>Sympathy & Memorial</h3>
-      <p>Thoughtful floral tributes created with care and compassion.</p>
+      <p>Thoughtful floral tributes created with care and compassion to honor loved ones.</p>
     </div>
 
     <div class="service-card">
       <h3>Special Events</h3>
-      <p>Flowers for birthdays, anniversaries, baby showers, and more.</p>
-    </div>
-
-    <div class="service-card">
-      <h3>Wedding Flowers</h3>
-      <p>Bouquets, centerpieces, and floral accents for your special day.</p>
-    </div>
-
-    <div class="service-card">
-      <h3>Custom Orders</h3>
-      <p>Choose your colors, flowers, and style for a personalized design.</p>
+      <p>Floral décor for baby showers, graduations, church events, family celebrations, and custom centerpieces.</p>
     </div>
   </div>
 </section>
@@ -131,7 +127,7 @@
 
   <div class="gallery-grid">
     <img src="assets/Fower-1.png" alt="Orange and white floral arrangement">
-    <img src="assets/flower-2.png" alt="Red, white, and blue floral arrangement">
+    <img src="assets/flower-2.png" alt="Red floral arrangement">
     <img src="assets/Fower-3.png" alt="Yellow and pink floral arrangement">
     <img src="assets/Fower-4.png" alt="Sunflower floral arrangement">
     <img src="assets/Fower-5.png" alt="Red tropical floral arrangement">
@@ -155,9 +151,11 @@
     <span>Anniversaries</span>
     <span>Graduations</span>
     <span>Weddings</span>
+    <span>Quinceañeras</span>
+    <span>Sweet 16s</span>
     <span>Baby Showers</span>
     <span>Housewarmings</span>
-    <span>Sympathy</span>
+    <span>Sympathy & Memorials</span>
     <span>Just Because</span>
   </div>
 </section>
@@ -165,30 +163,32 @@
 <section class="delivery">
   <div>
     <h2>Local Delivery & Nationwide Shipping</h2>
-
     <p>
-      Nicole's Flower Designs proudly offers local delivery and shipping
-      anywhere in the United States. Shipping costs are calculated separately
-      based on destination and arrangement size.
+      Nicole's Flower Designs proudly offers local delivery and shipping anywhere
+      in the United States. Shipping costs are calculated separately based on
+      destination and arrangement size.
     </p>
   </div>
 </section>
 
 <section class="policy">
-  <div>
+  <div class="policy-box">
+    <div class="policy-icon">🌸</div>
     <p class="section-label">Order Policy</p>
     <h2>Deposit Required</h2>
+
     <p>
-      A 50% deposit is required to begin all custom orders. Deposits go toward
-      the final order total.
+      A 50% deposit is required to begin all custom orders. Deposits are applied
+      toward the final order total.
     </p>
+
     <p>
-      Deposits are non-refundable if an order is cancelled after 24 hours.
-      Please make sure all details are correct before placing your order.
+      Deposits become non-refundable after 24 hours, as materials and supplies
+      may be purchased specifically for your order.
     </p>
   </div>
 </section>
-  
+
 <section id="contact" class="contact">
   <div class="contact-info">
     <p class="section-label">Let's Create Something Beautiful</p>
@@ -200,14 +200,15 @@
     </p>
 
     <p><strong>Location:</strong> Georgia, USA</p>
-    <p><strong>Delivery:</strong> Local delivery available</p>
-    <p><strong>Shipping:</strong> Available anywhere in the U.S.</p>
+    <p><strong>Delivery:</strong> Local delivery available throughout Metro Atlanta</p>
+    <p><strong>Shipping:</strong> Available anywhere in the United States</p>
 
     <a
       href="https://www.instagram.com/nicolesflowerdesigns_/"
       target="_blank"
       class="instagram-link"
     >
+      <img src="assets/insta.png" alt="Instagram icon">
       Follow Nicole's Flower Designs on Instagram
     </a>
   </div>
@@ -217,12 +218,16 @@
 
     <input type="email" name="email" placeholder="Email Address" required>
 
+    <input type="tel" name="phone" placeholder="Phone Number">
+
     <select name="occasion" required>
       <option value="">Select Occasion</option>
       <option value="Birthday">Birthday</option>
       <option value="Anniversary">Anniversary</option>
       <option value="Graduation">Graduation</option>
       <option value="Wedding">Wedding</option>
+      <option value="Quinceañera">Quinceañera</option>
+      <option value="Sweet 16">Sweet 16</option>
       <option value="Baby Shower">Baby Shower</option>
       <option value="Sympathy / Memorial">Sympathy / Memorial</option>
       <option value="Housewarming">Housewarming</option>
@@ -238,18 +243,21 @@
       <option value="Either / Not Sure">Either / Not Sure</option>
     </select>
 
-    <input type="text" name="colors" placeholder="Preferred Colors">
-
-    <input type="text" name="flowers" placeholder="Preferred Flowers">
-
     <select name="budget" required>
       <option value="">Select Budget</option>
       <option value="$25 - $50">$25 - $50</option>
       <option value="$50 - $100">$50 - $100</option>
       <option value="$100 - $150">$100 - $150</option>
-      <option value="$150+">$150+</option>
+      <option value="$150 - $250">$150 - $250</option>
+      <option value="$250+">$250+</option>
       <option value="Not Sure">Not Sure</option>
     </select>
+
+    <input type="date" name="event_date" aria-label="Event Date">
+
+    <input type="text" name="colors" placeholder="Preferred Colors">
+
+    <input type="text" name="flowers" placeholder="Preferred Flowers">
 
     <label class="file-label">
       Upload Inspiration Photo
@@ -272,6 +280,8 @@
   <p>Local Delivery • Shipping Anywhere in the U.S.</p>
   <p>© 2026 Nicole's Flower Designs. All Rights Reserved.</p>
 </footer>
+
+<a href="#top" class="back-to-top" aria-label="Back to top">↑</a>
 
 <script src="script.js"></script>
 </body>
