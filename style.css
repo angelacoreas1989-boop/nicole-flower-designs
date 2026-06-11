@@ -574,3 +574,15 @@ footer p {
     border: none;
   }
 }
+.hero-image-section {
+  padding: 0 !important;
+  margin: 0 !important;
+  background: #fff7f5 !important;
+}
+
+.hero-image-section img {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  object-fit: contain !important;
+}
