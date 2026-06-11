@@ -27,9 +27,9 @@
   <button class="menu-btn" onclick="toggleMenu()">☰</button>
 </header>
 
-<section id="home" class="hero-image-section">
+<div id="home" class="hero-banner-wrapper">
   <img src="assets/flower-designs-banner.png" alt="Nicole's Flower Designs Banner">
-</section>
+</div>
 
 <section id="about" class="about">
   <div class="about-card">
@@ -195,13 +195,21 @@
     <h2>Request a Custom Design</h2>
 
     <p>
-      Tell us what you're looking for, your occasion, preferred colors, flowers,
-      budget, and any inspiration photo you may have.
+      Tell us about your vision, occasion, preferred colors, flowers, theme,
+      budget, delivery date, and any special requests. For the most accurate
+      quote, please include as much detail as possible and upload an inspiration
+      photo if available.
+    </p>
+
+    <p>
+      Custom floral arrangements are priced based on flower selection, design
+      complexity, size, and delivery location.
     </p>
 
     <p><strong>Location:</strong> Georgia, USA</p>
     <p><strong>Delivery:</strong> Local delivery available throughout Metro Atlanta</p>
     <p><strong>Shipping:</strong> Available anywhere in the United States</p>
+    <p><strong>Deposit:</strong> A 50% deposit is required for all custom orders. Deposits become non-refundable after 24 hours.</p>
 
     <a
       href="https://www.instagram.com/nicolesflowerdesigns_/"
@@ -255,16 +263,12 @@
 
     <input type="date" name="event_date" aria-label="Event Date">
 
-    <input type="text" name="colors" placeholder="Preferred Colors">
-
-    <input type="text" name="flowers" placeholder="Preferred Flowers">
-
     <label class="file-label">
       Upload Inspiration Photo
       <input type="file" name="inspiration_photo" accept="image/*">
     </label>
 
-    <textarea name="message" placeholder="Tell us more about what you are looking for..." required></textarea>
+    <textarea name="message" placeholder="Tell us about your preferred colors, flowers, theme, delivery details, and any special requests..." required></textarea>
 
     <button type="submit" class="btn">Request a Quote</button>
   </form>
