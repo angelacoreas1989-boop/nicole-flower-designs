@@ -82,20 +82,18 @@ nav a:hover {
   cursor: pointer;
 }
 
-.hero {
-  min-height: 88vh;
-  background-image: url("assets/flower-designs-banner.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
+.hero-banner-wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: var(--blush);
+  overflow: visible;
 }
 
-.hero-link {
-  position: absolute;
-  inset: 0;
+.hero-banner-wrapper img {
+  width: 100%;
+  height: auto;
   display: block;
-  cursor: pointer;
 }
 
 section {
@@ -281,17 +279,18 @@ p {
 
 .contact {
   background: white;
+  align-items: start;
 }
 
 .contact-info p {
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .instagram-link {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  margin-top: 18px;
+  gap: 12px;
+  margin-top: 22px;
   color: var(--pink);
   text-decoration: none;
   font-weight: bold;
@@ -302,8 +301,10 @@ p {
 }
 
 .instagram-link img {
-  width: 100px;
-  height: 100px;
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 form {
@@ -325,7 +326,7 @@ textarea {
 }
 
 textarea {
-  min-height: 150px;
+  min-height: 220px;
   resize: vertical;
 }
 
@@ -425,11 +426,6 @@ footer p {
     display: block;
   }
 
-  .hero {
-    min-height: 65vh;
-    background-position: center;
-  }
-
   .about-card,
   .story-card,
   .contact {
@@ -449,12 +445,6 @@ footer p {
 @media(max-width: 600px) {
   section {
     padding: 60px 6%;
-  }
-
-  .hero {
-    min-height: 55vh;
-    background-size: cover;
-    background-position: center;
   }
 
   .service-grid,
@@ -478,111 +468,4 @@ footer p {
     right: 16px;
     bottom: 16px;
   }
-}
-
-.order-form-page {
-  background: #fff7f5;
-  padding: 40px 8%;
-}
-
-.order-banner {
-  width: 100%;
-  max-width: 1100px;
-  display: block;
-  margin: 0 auto 35px;
-  border-radius: 12px;
-}
-
-.order-form {
-  max-width: 900px;
-  margin: auto;
-  background: white;
-  padding: 45px;
-  border: 1px solid rgba(200, 155, 60, 0.35);
-  box-shadow: 0 14px 35px rgba(0,0,0,0.08);
-}
-
-.order-form h1,
-.order-form h2 {
-  color: var(--dark);
-}
-
-.order-form h1 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.form-note,
-.small-note {
-  text-align: center;
-  color: var(--pink);
-  font-style: italic;
-}
-
-.order-form label {
-  display: block;
-  margin-top: 18px;
-  font-weight: bold;
-  color: var(--dark);
-}
-
-.order-form input,
-.order-form textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid rgba(200, 155, 60, 0.45);
-  margin-top: 6px;
-}
-
-.order-form textarea {
-  min-height: 90px;
-}
-
-.signature-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  margin-top: 28px;
-}
-
-.signature-line {
-  border-bottom: 1px solid var(--dark);
-  height: 40px;
-}
-
-@media print {
-  .navbar,
-  .back-to-top {
-    display: none;
-  }
-
-  .order-form-page {
-    padding: 0;
-    background: white;
-  }
-
-  .hero {
-  padding: 0;
-}
-
-.hero-banner {
-  width: 100%;
-  display: block;
-}
-  .order-form {
-    box-shadow: none;
-    border: none;
-  }
-}
-.hero-image-section {
-  padding: 0 !important;
-  margin: 0 !important;
-  background: #fff7f5 !important;
-}
-
-.hero-image-section img {
-  width: 100% !important;
-  height: auto !important;
-  display: block !important;
-  object-fit: contain !important;
 }
