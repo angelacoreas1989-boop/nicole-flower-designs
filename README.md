@@ -1,92 +1,97 @@
 <p align="center">
-  <img src="./assets/angela-coreas-banner.png" alt="Angela Coreas Banner" width="100%" />
+  <img src="./assets/angela-coreas-banner.png" alt="Angela Coreas Banner" />
 </p>
 
-<h1 align="center">✦ Nicole Flower Designs ✦</h1>
+<h1 align="center">✦ Nicole's Flower Designs ✦</h1>
 
 <p align="center">
-  <b>Responsive Business Website • Floral Design Brand • Modern Web Development</b>
+<b>Luxury Floral Business Website | Custom Arrangements | Weddings | Events</b>
 </p>
 
 <p align="center">
-Designed to help a growing floral business establish a professional online presence, showcase services, and create a foundation for future growth, including custom branding and a dedicated business domain.
+A responsive floral business website created for a family-owned flower design business offering custom arrangements, wreaths, weddings, quinceañeras, Sweet 16s, special events, local delivery, and nationwide shipping.
 </p>
 
-<br/>
+---
+
+## ✦ Live Demo
 
 <p align="center">
-<img src="https://img.shields.io/badge/WGU-Software_Engineering-e75480?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Focus-Business_Website-ff69b4?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Goal-SWE_Internship-ffb6c1?style=for-the-badge"/>
-</p>
-
-<br/>
-
-<p align="center">
-  <a href="https://github.com/angelacoreas1989-boop">
-    <img src="https://img.shields.io/badge/GitHub-Profile-5a5a5a?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://angelacoreas1989-boop.github.io/tech-portfolio/">
-    <img src="https://img.shields.io/badge/Projects-Portfolio-000000?style=for-the-badge" />
-  </a>
-  <a href="https://www.linkedin.com/in/angela-coreas-550088186">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-5a5a5a?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://angelacoreas1989-boop.github.io/tech-portfolio/">
-    <img src="https://img.shields.io/badge/Profile-Angela_Coreas-ff69b4?style=for-the-badge" />
+  <a href="https://angelacoreas1989-boop.github.io/nicole-flower-designs/">
+    View Live Website
   </a>
 </p>
 
 ---
 
-## ✦ LIVE DEMO ✦
+## ✦ Project Overview
 
-🔗 https://angelacoreas1989-boop.github.io/nicole-flower-designs/
+Nicole's Flower Designs is a custom floral business website designed for a family-owned flower shop specializing in handcrafted floral arrangements, custom wreaths, weddings, quinceañeras, Sweet 16 celebrations, memorial arrangements, and special events.
 
----
-
-## ✦ PROJECT OVERVIEW ✦
-
-Nicole Flower Designs is a responsive front-end website created for a floral design business.
-
-This project was designed to present floral services in a polished, elegant, and professional way while helping the business establish a stronger online presence. The website includes a modern landing page, service-focused sections, visual design elements, and a user-friendly layout for potential customers.
+The website provides customers with a polished online experience where they can learn about the business, view services, browse floral designs, review order policies, and submit custom quote requests.
 
 ---
 
-## ✦ BUSINESS PROBLEM ✦
+## ✦ Business Problem
 
-Small floral businesses often rely heavily on social media, limiting their ability to showcase services, establish credibility, and provide customers with a centralized location for inquiries and event requests.
+Nicole's Flower Designs needed a professional online presence beyond social media and word-of-mouth referrals.
 
-This project was created to help my mother's floral business establish a professional online presence while creating a foundation for future growth. The goal was to design a website that highlights services, strengthens brand identity, improves customer engagement, and supports future enhancements such as custom domains, online inquiries, and booking capabilities.
+Customers needed one central place to:
 
----
-
-## ✦ FEATURES ✦
-
-✦ Elegant floral-inspired landing page
-
-✦ Responsive design for desktop and mobile devices
-
-✦ Modern visual layout
-
-✦ Business-focused content sections
-
-✦ Services and gallery showcase
-
-✦ Contact and inquiry call-to-action
-
-✦ Luxury floral design aesthetic
-
-✦ Smooth page structure
-
-✦ GitHub Pages deployment
+- View floral services
+- Browse arrangement examples
+- Request custom quotes
+- Upload inspiration photos
+- Learn about delivery and shipping
+- Understand deposit requirements
+- Connect through Instagram
 
 ---
 
-## ✦ TECH STACK ✦
+## ✦ Solution
+
+I created a responsive business website that presents Nicole's Flower Designs as a polished floral brand while making it easier for customers to submit detailed quote requests.
+
+The website includes:
+
+- Luxury floral branding
+- Custom hero banner
+- Meet Norma section
+- Family legacy story section
+- Services overview
+- Floral gallery
+- Wreath gallery
+- Occasion categories
+- Delivery and shipping information
+- Deposit policy
+- Formspree quote request form
+- Instagram integration
+- Back-to-top button
+
+---
+
+## ✦ Features
+
+- Responsive website layout
+- Custom floral business branding
+- Image gallery for arrangements and wreaths
+- Quote request form
+- Inspiration photo upload
+- Occasion dropdown
+- Budget selection
+- Fresh or silk flower selection
+- Local delivery and nationwide shipping details
+- Deposit policy section
+- Instagram link
+- Mobile-friendly design
+- Back-to-top navigation
+
+---
+
+## ✦ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,javascript,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=html,css,javascript,vscode,git,github" />
 </p>
 
 <p align="center">
@@ -95,129 +100,84 @@ HTML • CSS • JavaScript • Git • GitHub • VS Code
 
 ---
 
-## ✦ SKILLS DEMONSTRATED ✦
+## ✦ Website Preview
 
-✦ Front-End Development Foundations
+### Homepage
 
-✦ Responsive Web Design
+![Homepage](./assets/Homepage.png)
 
-✦ UI Design
+### Services & Gallery
 
-✦ Brand-Focused Design
-
-✦ HTML Structure
-
-✦ CSS Styling
-
-✦ JavaScript Fundamentals
-
-✦ Visual Layout Planning
-
-✦ User Experience Design
-
-✦ Git Version Control
-
-✦ GitHub Pages Deployment
-
-✦ Professional Project Documentation
+![Services and Gallery](./assets/services-gallery.png)
 
 ---
 
-## ✦ SCREENSHOTS ✦
+## ✦ Skills Demonstrated
 
-### ✦ Homepage ✦
-
-![Homepage](assets/homepage.png)
-
-### ✦ Services Gallery ✦
-
-![Services Gallery](assets/services-gallery.png)
-
----
-
-## ✦ WHAT I LEARNED ✦
-
-✦ How to design a website around a real business brand
-
-✦ How to structure a responsive landing page
-
-✦ How to use color, spacing, and typography to create a polished visual experience
-
-✦ How to build a website for a real-world business use case
-
-✦ How to organize front-end files for deployment
-
-✦ How to deploy a website using GitHub Pages
-
-✦ How to improve project presentation through README documentation
-
-✦ How to connect design decisions to business goals
+- Responsive Web Design
+- Front-End Development
+- UI/UX Design
+- Mobile Optimization
+- Business Requirements Gathering
+- Client-Focused Development
+- Formspree Integration
+- Image Optimization
+- Website Branding
+- GitHub Pages Deployment
+- Content Organization
+- Real-World Business Workflow Design
 
 ---
 
-## ✦ FUTURE ENHANCEMENTS ✦
+## ✦ What I Learned
 
-✦ Add a custom business domain
+This project helped me practice building a website for a real small business with actual customer needs, branding goals, policies, and service details.
 
-✦ Add a customer inquiry form
+I learned how to turn client requirements into a complete website structure, organize business content clearly, create a quote request process, and design a user-friendly experience for customers looking to place custom floral orders.
 
-✦ Add event booking options
-
-✦ Add inspiration image upload functionality
-
-✦ Add a floral arrangement gallery
-
-✦ Add customer testimonials
-
-✦ Add calendar availability feature
-
-✦ Add payment deposit option
-
-✦ Add automated customer response message
+This project also strengthened my understanding of responsive layouts, form integration, image galleries, and how small business websites can support real workflows.
 
 ---
 
-## ✦ PROJECT STRUCTURE ✦
+## ✦ Future Enhancements
+
+- Online ordering system
+- Digital order agreement
+- Customer testimonials
+- Seasonal floral catalog
+- Event consultation booking
+- Automated quote responses
+- Gift card purchasing
+- Customer photo gallery
+- Payment integration
+- Downloadable order form
+
+---
+
+## ✦ Project Structure
 
 ```text
 nicole-flower-designs/
-├── assets/
-│   ├── angela-coreas-banner.png
-│   ├── homepage.png
-│   └── services-gallery.png
+│
 ├── index.html
 ├── style.css
 ├── script.js
+│
+├── assets/
+│   ├── angela-coreas-banner.png
+│   ├── flower-designs-banner.png
+│   ├── Homepage.png
+│   ├── services-gallery.png
+│   ├── norma.jpg
+│   ├── tko.jpg
+│   ├── insta.png
+│   ├── Fower-1.png
+│   ├── flower-2.png
+│   ├── Fower-3.png
+│   ├── Fower-4.png
+│   ├── Fower-5.png
+│   ├── wreath-1.png
+│   ├── wreath-2.png
+│   └── wreath-3.png
+│
 └── README.md
-```
-
----
-
-## ✦ AUTHOR ✦
-
-**Angela Coreas**
-
-Software Engineering Student • Operations & CRM Professional
-
-LinkedIn:  
-https://www.linkedin.com/in/angela-coreas-550088186
-
-GitHub:  
-https://github.com/angelacoreas1989-boop
-
-Portfolio:  
-https://angelacoreas1989-boop.github.io/tech-portfolio/
-
----
-
-<p align="center">
-  ✦ Creating Beautiful Floral Experiences ✦
-</p>
-
-<p align="center">
-  <i>Designed with elegance, creativity, and attention to detail.</i>
-</p>
-
-<p align="center">
-  ✦
-</p>
