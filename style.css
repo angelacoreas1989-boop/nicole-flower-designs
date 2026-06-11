@@ -314,6 +314,18 @@ h2 {
   margin-bottom: 12px;
 }
 
+.instagram-link {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--pink);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.instagram-link:hover {
+  color: var(--gold);
+}
+
 form {
   display: flex;
   flex-direction: column;
